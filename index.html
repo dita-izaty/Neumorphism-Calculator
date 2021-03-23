@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple Neumorphism Calculator | by DIR</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="cal-box">
+            <input type="image" id="logo" alt="logo" height="20" width="40" src="/image/logo-dir.png">
+            <form name="calculator">
+                <input id="display" type="text" name="display" placeholder="0" readonly>
+            </form>
+            <table>
+                <tr>
+                    <td><input class="button clean" type="button" value="C" onclick="clean()"></td>
+                    <td><input class="button delete" type="button" value="⇦" onclick="back()"></td>
+                    <td><input class="button mathbutton" type="button" value="÷" onclick="insert(' / ')"></td>
+					<td><input class="button mathbutton" type="button" value="x" onclick="insert(' * ')"></td>
+                </tr>
+                <tr>
+                    <td><input class="button" type="button" value="7" onclick="insert(7)"></td>
+                    <td><input class="button" type="button" value="8" onclick="insert(8)"></td>
+                    <td><input class="button" type="button" value="9" onclick="insert(9)"></td>
+                    <td><input class="button mathbutton" type="button" value="-" onclick="insert(' - ')"></td>
+                </tr>
+                <tr>
+                    <td><input class="button" type="button" value="4" onclick="insert(4)"></td>
+                    <td><input class="button" type="button" value="5" onclick="insert(5)"></td>
+                    <td><input class="button" type="button" value="6" onclick="insert(6)"></td>
+                    <td><input class="button mathbutton" type="button" value="+" onclick="insert(' + ')"></td>
+                </tr>
+                <tr>
+                    <td><input class="button" type="button" value="1" onclick="insert(1)"></td>
+                    <td><input class="button" type="button" value="2" onclick="insert(2)"></td>
+                    <td><input class="button" type="button" value="3" onclick="insert(3)"></td>
+                    <td rowspan=2><input style="height:99px;" class="button equal" type="button" value="=" onclick="equal()"></td>
+                </tr>
+                <tr>
+                    <td><input class="button" type="button" value="." onclick="insert('.')"></td>
+                    <td colspan=2><input class="button" style="width:87px;" type="button" value="0" onclick="insert(0)"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

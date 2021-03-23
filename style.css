@@ -1,0 +1,75 @@
+body {
+  background-color: #c9f8d7;;
+}
+
+.container {
+  width: 250px;
+  height: 455px;
+  margin: 104px auto;
+  border-radius: 12px;
+  background: #b4f8c8;
+  box-shadow: 5px 5px 10px #b6b0b0, -5px -5px 10px #ffffff;
+}
+
+#logo {
+  margin: 5px 0 5px 0;
+  text-align: center;
+  color: #fb4570;
+}
+
+.cal-box {
+  padding: 18px;
+  width: 200px;
+  margin: 20px auto;
+}
+
+#display {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: black;
+  text-align: right;
+  font-weight: 600;
+  padding: 17px;
+  margin: 13px 0 13px 0;
+  background: #ccf3e2;
+  box-shadow: inset 2px 2px 5px #babecc, inset -2px -2px 5px #ffffff;
+}
+
+.button {
+  margin: 15px 0 0 5px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  background: #a0e7e5;
+  box-shadow: 3px 3px 6px #b6acac, -3px -3px 6px #faf4f4;
+}
+
+.button:active {
+  box-shadow: inset 2px 2px 3px #ebebeb, inset -2px -2px 3px #faf4f4;
+}
+
+.clean {
+  background: #fb4570;
+  color: azure;
+}
+
+.delete {
+  background: #fb6b90;
+  color: azure;
+}
+
+.mathbutton {
+  background: #dc8cb0;
+  color: white;
+}
+
+.equal {
+  background: #7268b0;
+  color: white;
+}
